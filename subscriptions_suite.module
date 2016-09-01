@@ -10,6 +10,6 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function subscriptions_help($route_name, RouteMatchInterface $route_match) {
+function subscriptions_suite_help($route_name, RouteMatchInterface $route_match) {
 
 }
