@@ -13,15 +13,12 @@
 
     "require-dev": {
         "drush/drush": "^9.0",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
         "phpunit/phpunit": "~4.8",
         "squizlabs/php_codesniffer": "2.*",
         "drupal/devel": "^1.0"
     },
 
     "require": {
-        "cweagans/composer-patches": "^1.5.0",
-        "composer/installers": "^1.0",
         "drupal/core": "^8.1.0",
         "drupal/ctools": "3.0-alpha26",
         "drupal/config_update": "^1.1",
