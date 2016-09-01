@@ -1,6 +1,6 @@
 name: Subscriptions
-type: profile
-description: 'Build a custom site without pre-configured functionality. Suitable for advanced users.'
+type: module
+description: 'Subscriptions Suite and related modules.'
 version: VERSION
 core: 8.x
 
@@ -8,38 +8,5 @@ distribution:
   name: Subscriptions
 
 dependencies:
-  - node
-  - history
-  - block
-  - breakpoint
-  - ckeditor
-  - color
-  - config
-  - contextual
-  - contact
-  - menu_link_content
-  - datetime
-  - block_content
-  - quickedit
-  - editor
-  - help
-  - image
-  - menu_ui
-  - options
-  - path
-  - page_cache
-  - dynamic_page_cache
-  - taxonomy
-  - shortcut
-  - toolbar
-  - field_ui
-  - file
-  - views
-  - views_ui
-  - syslog
-  - tour
-  - automated_cron
-
-themes:
-  - bartik
-  - seven
+  - domain
+  - paragraph
