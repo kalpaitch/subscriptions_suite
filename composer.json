@@ -6,6 +6,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
 
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+
     "extra": {
         "patches": {
         }
