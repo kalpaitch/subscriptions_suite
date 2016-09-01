@@ -36,6 +36,7 @@ dependencies:
   - file
   - views
   - views_ui
+  - syslog
   - tour
   - automated_cron
 
