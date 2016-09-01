@@ -1,6 +1,6 @@
 {
-    "name": "dennisdigital/subscriptions-profile",
-    "description": "Experimental Profile",
+    "name": "dennisdigital/subscriptions-suite",
+    "description": "Subscriptions Suite",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
