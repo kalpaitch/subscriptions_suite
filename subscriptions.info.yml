@@ -9,11 +9,36 @@ distribution:
 
 dependencies:
   - node
+  - history
   - block
-  - dblog
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
   - page_cache
   - dynamic_page_cache
+  - taxonomy
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - tour
+  - automated_cron
 
 themes:
-  - stark
-
+  - bartik
+  - seven
