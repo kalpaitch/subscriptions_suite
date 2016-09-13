@@ -1,1 +1,1 @@
-# subscriptions-profile
+# subscriptions_suite
