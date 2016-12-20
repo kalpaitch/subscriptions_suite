@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * Install file.
+ */
+
+use \Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_install.
+ */
+function subscriptions_suite_install() {
+  // Create custom tokens;
+  $tokens = [
+    [
+      'name' => 'Digital Customer Service email',
+      'description' => 'Customer Service email',
+      'machine_mame' => 'digital-customer-service-email',
+      'content' => 'insert@email.here',
+    ],
+    [
+      'name' => 'Print Customer Service email',
+      'description' => 'Customer Service email',
+      'machine_mame' => 'print-customer-service-email',
+      'content' => 'insert@email.here',
+    ],
+  ];
+
+  foreach ($tokens as $key => $token) {
+    $fields = array(
+      'name' => $token['name'],
+      'description' => $token['description'],
+      'type' => 'custom',
+      'content' => $token['content'],
+      'format' => 'restricted_html',
+      'is_new' => 1,
+    );
+    \Drupal::database()->merge('token_custom')
+      ->key(array('machine_name' => $token['machine_mame']))
+      ->fields($fields)
+      ->execute();
+  }
+}
