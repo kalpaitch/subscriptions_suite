@@ -16,8 +16,8 @@
     },
 
     "require": {
+        "drupal/token_filter": "1.0.0-beta1",
         "drupal/domain": "1.0.0-alpha6",
         "drupal/paragraphs": "^1.0"
     }
 }
-
