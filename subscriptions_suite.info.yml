@@ -8,3 +8,4 @@ dependencies:
   - domain
   - domain_config
   - paragraphs
+  - token_filter
