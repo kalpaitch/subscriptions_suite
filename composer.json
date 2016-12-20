@@ -8,6 +8,7 @@
 
     "extra": {
         "patches": {
+            "enable-patching" : true,
             "drupal/domain": {
                 "Domain config UI": "https://www.drupal.org/files/issues/domain_config_ui-2829614-3.patch"
             }
