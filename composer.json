@@ -17,7 +17,7 @@
 
     "require": {
         "drupal/token_filter": "1.0.0-beta1",
-        "drupal/config_token": "8.x-dev#14098e2556637964d42b13deb647cd0ed4760ede",
+        "drupal/config_token": "1.x-dev#12a52f42dc9bf8b2cece276515f0e2ea1b169e0f",
         "drupal/domain": "1.0.0-alpha6",
         "drupal/paragraphs": "^1.0"
     }
