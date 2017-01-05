@@ -9,4 +9,4 @@ dependencies:
   - domain_config
   - paragraphs
   - token_filter
-  - token_custom
+  - config_token
