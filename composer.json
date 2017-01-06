@@ -19,6 +19,7 @@
         "drupal/token_filter": "1.0.0-beta1",
         "drupal/config_token": "1.x-dev#72dfae49a5dd8b52c8bf8b06ee357ac1c563e5a6",
         "drupal/domain": "1.0.0-alpha6",
-        "drupal/paragraphs": "^1.0"
+        "drupal/paragraphs": "^1.0",
+        "drupal/sharerich": "1.x-dev"
     }
 }
