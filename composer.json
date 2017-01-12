@@ -10,7 +10,8 @@
         "patches": {
             "enable-patching" : true,
             "drupal/domain": {
-                "Domain config UI": "https://www.drupal.org/files/issues/domain_config_ui-2829614-3.patch"
+                "Domain config UI": "https://www.drupal.org/files/issues/domain_config_ui-2829614-3.patch",
+                "Domain config": "https://www.drupal.org/files/issues/issue_creating_user_with_behat-2842785-11863387.patch"
             }
         }
     },
