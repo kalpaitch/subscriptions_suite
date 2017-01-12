@@ -16,7 +16,7 @@
     },
 
     "require": {
-        "drupal/domain": "dev-8.x",
+        "drupal/domain": "8.x-dev",
         "drupal/paragraphs": "^1.0",
         "drupal/google_tag": "1.x-dev"
     }
