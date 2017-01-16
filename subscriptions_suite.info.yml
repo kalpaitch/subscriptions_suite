@@ -8,4 +8,3 @@ dependencies:
   - domain
   - domain_config
   - paragraphs
-  - google_tag
