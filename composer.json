@@ -16,8 +16,9 @@
     },
 
     "require": {
+        "drupal/token_filter": "1.0.0-beta1",
+        "drupal/config_token": "1.x-dev#ee626183c4b75b901a9edb63c1e614516e9c3ba6",
         "drupal/domain": "1.0.0-alpha6",
         "drupal/paragraphs": "^1.0"
     }
 }
-
