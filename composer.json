@@ -6,12 +6,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
 
-    "repositories": {
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/dennisinteractive/domain_path"
         }
-    }, 
+    ], 
     
     "extra": {
         "patches": {
