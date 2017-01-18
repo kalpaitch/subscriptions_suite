@@ -18,6 +18,7 @@
 
     "require": {
         "drupal/domain": "1.x-dev",
+        "drupal/domain_path": "26684_setup_aliases",
         "drupal/paragraphs": "^1.0",
         "drupal/google_tag": "1.x-dev"
     }
